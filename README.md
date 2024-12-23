@@ -23,7 +23,7 @@ python PSFD-T.py or PSFD-U.py
 python scripts/inference_1.py \
 --plms --outdir your_results_path \
 --config configs/v1.yaml \
---ckpt /HARD-DATA/ZHT/.cache/huggingface/hub/models--Fantasy-Studio--Paint-by-Example/snapshots/351e6427d8c28a3b24f7c751d43eb4b6735127f7/model.ckpt
+--ckpt /HARD-DATA/.cache/huggingface/hub/models--Fantasy-Studio--Paint-by-Example/snapshots/351e6427d8c28a3b24f7c751d43eb4b6735127f7/model.ckpt
 ```
 
 Make sure you have the checkpoint model installed!（stable-diffusion-v1-4)
